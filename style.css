@@ -134,3 +134,34 @@ button {
     font-weight: bold;
     margin-left: 500px;
 }
+
+.ctacontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    color: #f9faf8;
+}
+
+.cta {
+    background-color: #3882f6;
+    width: 60%;
+    padding: 40px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ctaheader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ctasub {
+    font-size: 10px;
+}
+
+.cta button {
+    border: solid #f9faf8 2px;
+    border-radius: 7px;
+}
